@@ -1,7 +1,7 @@
 body {
     text-align: center;
     padding-top: 800px;
-    background-color: coral;
+    background-color: chartreuse
 }
 
 .profile {
@@ -18,7 +18,7 @@ body {
     right: 0;
     top: 0;
     bottom: 0;
-    background: linear-gradient;
+    background: linear-gradient (#60ebeb 0%, #27ae60 100%);
     display: table;
     width: 100%;
     height: 100%;
@@ -71,7 +71,21 @@ h2 {
     right: 30px;
     cursor: pointer;
     z-index: 10;
+    list-style: georgian;
 }
-.links:hover{
+
+.links:hover {
     background-color: cornflowerblue;
+}
+
+a {
+    text-decoration: none;
+}
+
+.article:hover {
+    color: darkorange;
+}
+
+html {
+    scroll-behavior: smooth;
 }
